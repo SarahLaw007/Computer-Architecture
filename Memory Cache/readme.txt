@@ -1,0 +1,1 @@
+One of the most interesting projects in Computer Architecture was this Memory Cache simulator.  This was the fourth and final project of the semester.  The third project was not a coding project, so it is not included.
