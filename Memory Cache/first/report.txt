@@ -1,0 +1,6 @@
+The main data structures used in the program was mainly limited to a 2D array.
+Two 2D arrays were used in two instances.  One 2D array was built to simulate a cache that prefetched and the other 2D array was built to simulate a cache that did not prefetch.
+
+Although not necessarily a data structure the abreviation, "ull", was also used in place of unsigned long long int.
+
+The prefetcher in general reduced the number of misses because it optimized for sequential reading.  It optimized by reading in the next address plus the block size into the cache on misses when the next address plus the block size was not already present in the prefetched cache.  Hence prefetching allowed for more potential hits than the non prefetching cache by optimizing for sequential reading; however, by reading in on a miss when the prefetched cache did not have the next address plus the block size there sometimes was a tradeoff of additional reads.
